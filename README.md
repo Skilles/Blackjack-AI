@@ -9,6 +9,8 @@ Those with the highest scores are then rebreeded to create the next generation.
 The bot achieved a win rate of 44% over ~680 generations. Using optimal playing strategy for Blackjack, the win percentage is 42.99%. The higher than optimal win rate was likely due to only 1 deck being used in between shuffles (most Casinos use 4).
 
 ## Information
+My latest results are using a recurrent network (yes the config is named feedforward), but I believe using a feedforward network would yield similar results.
+
 The neural net has access to three inputs: total value of hand, revealed house card value, and the total value of cards in the deck (only here for speeding up the evolution).
 
 The output is a hit, otherwise the bot stays.
