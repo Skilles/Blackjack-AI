@@ -22,5 +22,3 @@ In the future, I might implement betting and see the bots profit (likely to be n
 Since the game runs in pygame, there is likely some overhead that occurs when drawing game states and actions (only one generation is drawn). 
 
 I featured some design fitness restrictions such as killing the network if the loss ratio is too high. In reality, these restrictions might affect the quality of the training but it does speed it up.
-
-Note: This is my second project in python and I am in no ways experienced with genetic algorithims or programming in python in general.
